@@ -30,17 +30,17 @@ namespace v0806
                 vx = 10;
             }
 
+            if (label1.Right < 284)
+            {
+                vx = -10;
+            }
+
             if (label1.Top < 0)
             {
                 vy = 10;
             }
 
-            if (label1.Left < 264)
-            {
-                vx = -10;
-            }
-
-            if (label1.Top < 260)
+            if (label1.Bottom < 261)
             {
                 vy = -10;
             }
