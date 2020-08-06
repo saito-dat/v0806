@@ -30,7 +30,7 @@ namespace v0806
                 vx = Math.Abs(vx) * 11 / 10;
             }
 
-            if (label1.Left+label1.Width < ClientSize.Width)
+            if (label1.Left+label1.Width > ClientSize.Width)
             {
                 vx = -Math.Abs(vx) * 11 / 10;
             }
@@ -40,7 +40,7 @@ namespace v0806
                 vy = Math.Abs(vy) * 11 / 10;
             }
 
-            if (label1.Bottom < ClientSize.Height)
+            if (label1.Bottom > ClientSize.Height)
             {
                 vy = -Math.Abs(vy) * 11 / 10;
             }
